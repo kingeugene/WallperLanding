@@ -105,25 +105,9 @@ hr {
  }
 
 .conteiners_text_icon {
- 
-
- 	.conteiners_icon {
-
- 	
- 	width: 5%;
- 	height: 5%;
- 		
- 		ul{
- 			li{
- 				float: left;
- 			}
- 		}
- }
- 
- 
- 	
-    
-    
-  
-         
+	padding: 0 10% 3em 10%;
+	.inline_items {
+		 display: inline-block;
+		 width: 15%;
+	}
  }

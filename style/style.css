@@ -87,8 +87,12 @@ ul li {
     margin-top: 15px;
     text-align: center; }
 
-.conteiners_text_icon .conteiners_icon {
-  width: 5%;
-  height: 5%; }
-  .conteiners_text_icon .conteiners_icon ul li {
-    float: left; }
+.conteiners_text_icon .inline_items {
+  display: inline-block;
+  width: 15%;
+  padding: 0 1em 0 1em;
+}
+
+.conteiners_text_icon {
+  padding: 0 10% 3em 10%;
+}
