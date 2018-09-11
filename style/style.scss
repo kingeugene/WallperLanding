@@ -73,19 +73,17 @@ ul li {
 	padding-top: 15px;
 	padding-bottom: 20px;
 	margin-top: 35px;
-	margin-bottom: 20px;
+	
 	background: #10ba6c;
 	color: #fff;
 	font-size:20px;
 }
 
-
-
-.phone_number {
-	font-size: 22px;
-	font-weight: bold;
-
+.heder_title_two {
+	padding-top: 2em;
 }
+
+
 
 
 .underlining {
@@ -105,9 +103,119 @@ hr {
  }
 
 .conteiners_text_icon {
-	padding: 0 10% 3em 10%;
+	padding: 0 10% 0.1em 10%;
 	.inline_items {
 		 display: inline-block;
-		 width: 15%;
+		 width: 14%;
+		 margin: 2% 5%;
 	}
  }
+
+.underlining_two {
+	display: inline-block;
+
+		hr {
+    border: none; /* Убираем границу */
+    background-color: #ffdb4d;; /* Цвет линии */
+    color: #ffdb4d;; /* Цвет линии для IE6-7 */
+    height: 3px;  /* Толщина линии */
+    width: 1200px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+   }
+
+}
+
+.small_two {
+	padding-bottom: 2em;
+	color: #a9a0a9;
+}
+
+.back_col {
+	background: #f7f7f7;
+
+}
+
+.title_three {
+	font-size: 2.5em;
+	padding-top: 1em;
+}
+
+.undirlingi_three {
+	display: inline-block;
+	
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: #ffdb4d;; /* Цвет линии */
+    color: #ffdb4d;; /* Цвет линии для IE6-7 */
+    height: 3px;  /* Толщина линии */
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+   }
+ }
+
+ .ready-made {
+ 	
+ 	padding: 1em;
+ }
+
+ .slide {
+ 	display: inline-block;
+ 	width: 30%;
+ 	display: relative;
+ 	vertical-align: top;
+ 	
+ 	
+
+ 	.slide_one {
+ 		width: 50%;
+ 		
+ 	}
+
+ 	.slide_two {
+ 		width: 70%;
+ 	}
+ 	
+ 	.slide_three {
+ 		width: 70%;
+ 	}
+}
+
+.qwe {
+	font-weight: bold;
+	padding: 0.5em; 
+}
+
+.qwer {
+	color: #a9a0a9;
+}
+
+.tittle_big {
+	
+
+ 	p {
+	font-size: 3em;
+	}
+
+	
+}
+
+.undirlingi_foth {
+	display: inline-block;
+
+	hr {
+    border: none; /* Убираем границу */
+    background-color: #ffdb4d;; /* Цвет линии */
+    color: #ffdb4d;; /* Цвет линии для IE6-7 */
+    height: 3px;  /* Толщина линии */
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+   }
+}
+
