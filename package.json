@@ -1,0 +1,22 @@
+{
+  "name": "wallperlanding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingeugene/WallperLanding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingeugene/WallperLanding/issues"
+  },
+  "homepage": "https://github.com/kingeugene/WallperLanding#readme",
+  "dependencies": {
+    "img-slider": "^2.2.0"
+  }
+}
