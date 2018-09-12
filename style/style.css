@@ -5,12 +5,12 @@ html, body {
 
 @font-face {
   font-family: Fira Sans;
-  src: url(font\Roobot\FiraSans-Medium.otf), url(FiraSans-Medium.ttf);
+  src: url(project\font\Roobot\FiraSans-Medium.otf), url(project\font\Roobot\FiraSans-Medium.ttf);
   font-weight: normal; }
 
 @font-face {
   font-family: Fira Sans;
-  src: url(font\Roobot\FiraSans-Bold.otf), url(FiraSans-Bold.ttf);
+  src: url(project\font\Roobot\FiraSans-Bold.otf), url(project\font\Roobot\FiraSans-Bold.ttf);
   font-weight: bold; }
 
 * {
@@ -35,7 +35,7 @@ ul li {
 .wrapper:after {
   content: "";
   display: block;
-  height: 65px;
+  height: 4em;
   /*-----высота футера-----*/ }
 
 .container {
@@ -44,36 +44,36 @@ ul li {
   margin: auto; }
 
 .footer {
-  height: 65px;
+  height: 4em;
   /*------размер футера-------*/
   background: #394458;
   /*-------цвет-------------*/
-  margin-top: -65px;
+  margin-top: -4em;
   width: 100%;
   /*-----отрицательное число от размера футера --------*/ }
   .footer .footer_text {
     color: #fff;
     text-align: center;
     font-size: 1.2em;
-    line-height: 65px;
+    line-height: 3.3em;
     font-weight: bold; }
 
 .heder_title {
   font-size: 2.5em;
   color: #394458;
-  margin-top: 15px; }
+  margin-top: 0.4em; }
 
 .heder_title_small {
   color: #a9a0a9;
-  margin-top: 15px; }
+  margin-top: 0.9em; }
 
 .icon {
-  margin-top: 35px; }
+  margin-top: 2.2em; }
 
 .questions_viber {
-  padding-top: 15px;
-  padding-bottom: 20px;
-  margin-top: 35px;
+  padding-top: 0.8em;
+  padding-bottom: 1em;
+  margin-top: 1.8em;
   background: #10ba6c;
   color: #fff;
   font-size: 20px; }
@@ -90,11 +90,11 @@ ul li {
     /* Цвет линии */
     color: #ffdb4d;
     /* Цвет линии для IE6-7 */
-    height: 3px;
+    height: 0.2em;
     /* Толщина линии */
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 4.4em;
+    margin-bottom: 1.3em;
+    margin-top: 0.9em;
     text-align: center; }
 
 .conteiners_text_icon {
@@ -103,6 +103,9 @@ ul li {
     display: inline-block;
     width: 14%;
     margin: 2% 5%; }
+
+.inline_items .cont {
+  width: 10em; }
 
 .underlining_two {
   display: inline-block; }
@@ -113,11 +116,11 @@ ul li {
     /* Цвет линии */
     color: #ffdb4d;
     /* Цвет линии для IE6-7 */
-    height: 3px;
+    height: 0.2em;
     /* Толщина линии */
-    width: 1200px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 75em;
+    margin-bottom: 1.3em;
+    margin-top: 0.9em;
     text-align: center; }
 
 .small_two {
@@ -140,11 +143,11 @@ ul li {
     /* Цвет линии */
     color: #ffdb4d;
     /* Цвет линии для IE6-7 */
-    height: 3px;
+    height: 0.2em;
     /* Толщина линии */
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 4.4em;
+    margin-bottom: 1.3em;
+    margin-top: 0.9em;
     text-align: center; }
 
 .ready-made {
@@ -187,7 +190,7 @@ ul li {
   color: #fff; }
 
 g path {
-  fill: cadetblue; }
+  fill: #10ba6c; }
 
 .inline_items .wrapper1 {
   width: 50%;
@@ -213,11 +216,11 @@ g path {
     /* Цвет линии */
     color: #ffdb4d;
     /* Цвет линии для IE6-7 */
-    height: 3px;
+    height: 0.2em;
     /* Толщина линии */
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 4.4em;
+    margin-bottom: 1.3em;
+    margin-top: 0.9em;
     text-align: center; }
 
 .main_unit {
@@ -302,11 +305,11 @@ g path {
     /* Цвет линии */
     color: #ffdb4d;
     /* Цвет линии для IE6-7 */
-    height: 3px;
+    height: 0.2em;
     /* Толщина линии */
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 4.4em;
+    margin-bottom: 1.3em;
+    margin-top: 0.9em;
     text-align: center; }
 
 .reson_text {
