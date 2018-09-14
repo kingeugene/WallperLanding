@@ -227,9 +227,25 @@
     font-size: 0.8em;
     line-height: 5em;
    }
+  
 
 
 
+.googl_maps {
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+   width: 100%;
+
+
+ iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ }
 
 
 
