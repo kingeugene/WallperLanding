@@ -6,9 +6,9 @@ html, body {
 
 @font-face {
 	font-family:Fira Sans;
-	src:url(project\font\Roobot\FiraSans-Medium.otf),
+	src:url(font\Roobot\FiraSans-Medium.otf),
 	
-	url(project\font\Roobot\FiraSans-Medium.ttf);
+	url(font\Roobot\FiraSans-Medium.ttf);
 
 	font-weight: normal;
 }
@@ -86,6 +86,10 @@ ul li {
 .icon {
 	margin-top: 2.2em;
 
+	img {
+		width: 70%;
+	}
+
 }
 
 .questions_viber {
@@ -96,6 +100,10 @@ ul li {
 	background: #10ba6c;
 	color: #fff;
 	font-size:20px;
+}
+ 
+.phone_number {
+	font-weight: bold;
 }
 
 .heder_title_two {
@@ -122,7 +130,7 @@ hr {
  }
 
 .conteiners_text_icon {
-	padding: 0 10% 0.1em 10%;
+	padding: 0 2% 0.1em 2%;
 	.inline_items {
 		 display: inline-block;
 		 width: 14%;
@@ -130,13 +138,10 @@ hr {
 	}
  }
 
-.inline_items{
- 
- .cont {
- 	width: 10em;
-
+ .node {
+ 	width: 110%;
  }
-}
+
 
 .underlining_two {
 	display: inline-block;
@@ -211,6 +216,10 @@ hr {
  	.slide_three {
  		width: 70%;
  	}
+}
+
+.slide_two {
+	height: 33.9em;
 }
 
 

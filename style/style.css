@@ -5,7 +5,7 @@ html, body {
 
 @font-face {
   font-family: Fira Sans;
-  src: url(project\font\Roobot\FiraSans-Medium.otf), url(project\font\Roobot\FiraSans-Medium.ttf);
+  src: url(font\Roobot\FiraSans-Medium.otf), url(font\Roobot\FiraSans-Medium.ttf);
   font-weight: normal; }
 
 @font-face {
@@ -69,6 +69,8 @@ ul li {
 
 .icon {
   margin-top: 2.2em; }
+  .icon img {
+    width: 70%; }
 
 .questions_viber {
   padding-top: 0.8em;
@@ -77,6 +79,9 @@ ul li {
   background: #10ba6c;
   color: #fff;
   font-size: 20px; }
+
+.phone_number {
+  font-weight: bold; }
 
 .heder_title_two {
   padding-top: 2em; }
@@ -98,14 +103,14 @@ ul li {
     text-align: center; }
 
 .conteiners_text_icon {
-  padding: 0 10% 0.1em 10%; }
+  padding: 0 2% 0.1em 2%; }
   .conteiners_text_icon .inline_items {
     display: inline-block;
     width: 14%;
     margin: 2% 5%; }
 
-.inline_items .cont {
-  width: 10em; }
+.node {
+  width: 110%; }
 
 .underlining_two {
   display: inline-block; }
@@ -165,6 +170,9 @@ ul li {
     width: 70%; }
   .slide .slide_three {
     width: 70%; }
+
+.slide_two {
+  height: 33.9em; }
 
 .main_big {
   background: #f7f7f7; }
