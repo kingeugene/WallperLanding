@@ -1,19 +1,24 @@
+<?php
+$file_get = file_get_contents("info.json");
+$file = json_decode($file_get, true);
+//var_dump($file);
+?>
 <!DOCTYPE html>
 <html lang="ru-Ru">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Профессиональная поклейка обоев">
-  	<meta name="keywords" content="Обои,поклейка,подготовка,стены">
-	<link rel="stylesheet"  href="normalize.css">
+	<meta name="description" content="<?php echo $file['description'];?>">
+  	<meta name="keywords" content="Обои,поклейка,Киев,Ирпень">
+	<link rel="stylesheet"  href="style/normalize.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/style_mobile.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/img-slider/distr/imgslider.min.css">
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="node_modules/img-slider/distr/imgslider.min.js"></script>
 	<script src="js/index.js"></script>
-	<title>Поклейка обоев</title>
+	<title><?php echo $file['title'];?></title>
 </head>
 <body>
 	<div class="wrapper">
@@ -21,9 +26,7 @@
 			<main class="main">
 				
 				<h1  class="heder_title">
-					<p>Профессиональная поклейка обоев</p>
-					<p>и подготовка стен,</p>
-					<p>без посредников.</p>
+					<?php echo $file['h1'];?>
 				</h1>
 				<div class="heder_title_small">
 					<p>Киев, Ирпень, Софиевская и Петропавловская Борщаговки</p>
@@ -83,9 +86,9 @@
 						<hr> 
 					</div>
 				<div class="small_two">
-					<p class="small_two_one">С 2004 года занимаемся отделочными работами. Огромный опыт, отточенное качество.</p>
-					<p class="small_two_two">Честные прогнозы сроков, прямой контакт с мастерами без посредников.</p>
-					<p class="small_two_three">Аккуратно, чисто, без хлопот.</p>
+					<p class="small_two_one">
+						<?php echo $file['home'];?>
+					</p>
 				</div>
 				</div>
 
@@ -241,12 +244,7 @@
 					<hr>
 				</div>
 				<div class="reson_text">
-					<p>Поклейка обоев от 40 грн / м2</p>
-					<p>Покраска стен, потолка от 40 грн / м2</p>
-					<p>Шпаклевка стен под покраску/обои от 90 - 65 грн / м2</p>
-					<p>Поклейка и покраска багетов 25 грн / м.пог</p>
-					<p>Шпаклевка и покраска потолка по гипсокартону 150 грн / м2</p>
-
+					<?php echo $file['price'];?>
 				</div>
 
 			</div>
@@ -259,11 +257,7 @@
 			
 
 			<div class="title_end">
-				<h3>Флизелиновые обои</h3>
-				<p>На мой взгяд самые идеальные обои для проведения ремонта своими руками. Поклейка флизелиновых обоев не требует особых знаний и опыта, а только изучение инструкции идущей в комплекте с рулноном  обоев. Основное, что отличает их от остальных обоев - это то, что они не  изменяют своих размеров (не увиличивают свою площадь) после  контакта с клеем, а после высыхания не уменьшаются и не расходятся по стыкам обоев. Немаловажно-обои являются дышащими. Возможность их многократно перекрашивать и наулучшая устойчивость к микротрещинам на стенах делают эти обои наилучшим выбором при ремонте квартиры. Единственый недостаток-это цена, но честно говоря они того стоят.
-				</p>
-				</br>
-				<p>Виниловые обои - видов виниловых обоев в принципе достаточно много, но у себя я применил супермоющиеся обои или как их еще называют кухонный винил как раз для кухни и вспененный винил для поклейки в прихожей. К преимуществам данных обоев можно отнести: устойчивость к воздействию влаги, что позволяет достаточно просто провести их чистку при помощи влажной губки и применить на кухне и прихожей, а хорошая устойчивость к выгоранию обеспечивает длительный срок службы. К недостаткам можно отнести их токсичность (выделяемые в процессе эксплуатации формальдегиды) в связи с чем не желательно их применение в детских и спальнях, а также слабая воздухопроницаемость (есть вероятность развития между стеной и обоями грибка).</p>
+				<?php echo $file['map'];?>
 			</div>
 
 			</div>

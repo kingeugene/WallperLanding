@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kingeugene/WallperLanding#readme",
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "img-slider": "^2.2.0"
   }
 }
