@@ -1,8 +1,5 @@
 <?php
-if(!$_SESSION['user']){
-    echo 'You have not access!';die;
-}
-else {
+
     $file = file_get_contents("../info.json");
     $json_o = json_decode($file, true);
     foreach ($_POST as $key => $value) {
@@ -12,8 +9,6 @@ else {
     }
     $result = json_encode($json_o, JSON_UNESCAPED_UNICODE);
     $file_put = file_put_contents("../info.json", $result);
-    session_destroy();
-}
 ?>
 <!DOCTYPE html>
 <html>

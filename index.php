@@ -19,6 +19,15 @@ $file = json_decode($file_get, true);
 	<script type="text/javascript" src="node_modules/img-slider/distr/imgslider.min.js"></script>
 	<script src="js/index.js"></script>
 	<title><?php echo $file['title'];?></title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125802896-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-125802896-1');
+	</script>
 </head>
 <body>
 	<div class="wrapper">

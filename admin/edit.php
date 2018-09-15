@@ -2,10 +2,6 @@
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 if($user != 'admin' or $pass != 'pass') { echo 'You have not access!';die; }
-else {
-    session_start();
-    $_SESSION['user'] = $user;
-}
 
 ?>
 <!DOCTYPE html>
