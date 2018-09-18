@@ -10,6 +10,8 @@ if($user != 'admin' or $pass != 'pass') { echo 'You have not access!';die; }
     <title>Админ панель</title>
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="admin.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="admin.js"></script>
 </head>
 <body>
     <form class="form-admin" action="save.php" method="POST">
@@ -36,7 +38,10 @@ if($user != 'admin' or $pass != 'pass') { echo 'You have not access!';die; }
         <div class="form-group">
             <label for="pass">Текст рядом с картой</label>
             <textarea name="map" class="form-control" placeholder="Текст рядом с картой"></textarea>
-
+            <span class="btn btn-dark add_tag" data-value="<h2></h2>">h2</span>
+            <span class="btn btn-dark add_tag" data-value="<ol></ol>">ol</span>
+            <span class="btn btn-dark add_tag" data-value="<li></li>">li</span>
+            <span class="btn btn-dark add_tag" data-value="<p></p>">p</span>
         </div>
         <button type="submit" class="btn btn-success">Сохранить</button>
         <button type="reset" class="btn btn-danger">Сбросить</button>
