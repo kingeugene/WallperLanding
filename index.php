@@ -109,57 +109,63 @@ $file = json_decode($file_get, true);
 				</div>
 				
 				<div class="ready-made">
-					<div class="slide" id="slider1">
-						<div class="slider responsive">
-							<div class="left image">
-								<img src="img/main/bcb726ddc1017cd2862a3f90735b65fa.jpg" class="slide_one" >
-								<div class="descripnion_left">
-								Ремонт
+					<div class="slide">
+						<div id="slider1">
+							<div class="slider responsive">
+								<div class="left image">
+									<img src="img/main/bcb726ddc1017cd2862a3f90735b65fa.jpg" class="slide_one" >
+									<div class="descripnion_left">
+									Ремонт
+								</div>
+								</div>
+								<div class="right image">
+									<img src="img/main/c872919ca4649630eea5ca1d8e6daa02.jpg" class="slide_one" >
+									<div class="descripnion_right">
+									Результат
+								</div>
+								</div>
+
+
 							</div>
-							</div>
-							<div class="right image">
-								<img src="img/main/c872919ca4649630eea5ca1d8e6daa02.jpg" class="slide_one" >
-								<div class="descripnion_right">
-								Результат 
-							</div>
-							</div>
-							
-							
 						</div>
 						<p class="qwe">Спальня, г. Киев</p>
 						<p class="qwer">Май, 2016</p>
 					</div>
-					<div class="slide"  id="slider2">
-						<div class="slider responsive">
-							<div class="left image" >
-								<img src="img/main/11fbc0a8e796848712cfaf06c567db33.jpg" class="slide_two">
-								<div class="descripnion_left">
-								Ремонт
-							</div>
-							</div>
-							<div class="right image">
-								<img src="img/main/d6444fc8db79146d079e1b64c996170e.jpg" class="slide_two" >
-								<div class="descripnion_right">
-								Результат 
-							</div>
+					<div class="slide">
+						<div id="slider2">
+							<div class="slider responsive">
+								<div class="left image" >
+									<img src="img/main/11fbc0a8e796848712cfaf06c567db33.jpg" class="slide_two">
+									<div class="descripnion_left">
+									Ремонт
+								</div>
+								</div>
+								<div class="right image">
+									<img src="img/main/d6444fc8db79146d079e1b64c996170e.jpg" class="slide_two" >
+									<div class="descripnion_right">
+									Результат
+								</div>
+								</div>
 							</div>
 						</div>
 						<p class="qwe">Комната в трешке, г. Киев</p>
 						<p class="qwer">Июнь, 2016</p>
 					</div>
-					<div class="slide"  id="slider3">
-						<div class="slider responsive">
-							<div class="left image">
-								<img src="img/main/193520d2355670e5075ffc4c9f484a85.jpg" class="slide_three">
-								<div class="descripnion_left">
-								Ремонт
-							</div>
-							</div>
-							<div class="right image">
-								<img src="img/main/9de5b619f54a293697c58a1ab197c2cc.jpg" class="slide_three" >
-								<div class="descripnion_right">
-								Результат 
-							</div>
+					<div class="slide">
+						<div id="slider3">
+							<div class="slider responsive">
+								<div class="left image">
+									<img src="img/main/193520d2355670e5075ffc4c9f484a85.jpg" class="slide_three">
+									<div class="descripnion_left">
+									Ремонт
+								</div>
+								</div>
+								<div class="right image">
+									<img src="img/main/9de5b619f54a293697c58a1ab197c2cc.jpg" class="slide_three" >
+									<div class="descripnion_right">
+									Результат
+								</div>
+								</div>
 							</div>
 						</div>
 						<p class="qwe">Гостиная, г. Ирпень</p>

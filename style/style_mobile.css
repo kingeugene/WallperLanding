@@ -4,11 +4,11 @@
     width: 99%; }
   @font-face {
     font-family: Fira Sans;
-    src: url(font\Roobot\FiraSans-Medium.otf), url(font\Roobot\FiraSans-Medium.ttf);
+    src: url(../font/Roobot/FiraSans-Medium.otf), url(../font/Roobot/FiraSans-Medium.ttf);
     font-weight: normal; }
   @font-face {
     font-family: Fira Sans;
-    src: url(project\font\Roobot\FiraSans-Bold.otf), url(project\font\Roobot\FiraSans-Bold.ttf);
+    src: url(../font/Roobot/FiraSans-Bold.otf), url(../font/Roobot/FiraSans-Bold.ttf);
     font-weight: bold; }
   * {
     font-family: Fira Sans, Helvetica, sans-serif;
@@ -17,7 +17,8 @@
   .heder_title {
     font-size: 1.5em;
     color: #394458;
-    margin: 0.8em; }
+    margin: auto;
+    width: 100%}
   .heder_title_small {
     width: 70%;
     display: inline-block;
